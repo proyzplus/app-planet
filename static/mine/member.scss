@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #cbdaf9;
+    span {
+        color: #FFFFFF;
+    }
+}
+
+nav {
+    width: 100%;
+    height: 1.6rem;
+    background-color: #cbdaf9;
+    #banner {
+        width: 90%;
+        margin: auto;
+        .top_mine {
+            width: 100%;
+            height: 0.7rem;
+            ul {
+                width: 100%;
+                height: 0.7rem;
+                display: flex;
+                list-style: none;
+                justify-content: space-between;
+                padding: 0;
+                margin: 0;
+                .minetop_head {
+                    width: 70%;
+                    height: 0.7rem;
+                    //                  border: 1px solid paleturquoise;
+                    .minetop_left {
+                        width: 100%;
+                        height: 0.7rem;
+                        ul {
+                            width: 100%;
+                            .left_mine {
+                                width: 20%;
+                                max-height: 0.7rem;
+                                img {
+                                    width: 100%;
+                                    max-height: 0.7rem;
+                                }
+                            }
+                            .right_mine {
+                                width: 70%;
+                                max-height: 0.7rem;
+                                .mine_pone {
+                                    font-size: 0.16rem;
+                                    color: #fffeff;
+                                    font-weight: 600;
+                                    overflow: hidden;
+                                    white-space: nowrap;
+                                    text-overflow: ellipsis;
+                                }
+                                .mine_pthree {
+                                    font-size: 0.12rem;
+                                    color: #FFFFFF;
+                                    line-height: 0.26rem;
+                                    overflow: hidden;
+                                    white-space: nowrap;
+                                    text-overflow: ellipsis;
+                                }
+                            }
+                        }
+                    }
+                }
+                .minetop_headd {
+                    width: 20%;
+                    height: 0.7rem;
+                    //                  border: 1px solid palevioletred;
+                    .minetop_right {
+                        width: 100%;
+                        height: 0.7rem;
+                        line-height: 0.45rem;
+                        p{
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+            }
+        }
+        .renae{
+            width: 100%;
+            height: 0.1rem;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+//          border: 1px solid red;
+            .renae_left{
+                width: 85%;
+                height: 0.08rem;
+                border-radius: 0.2rem;
+                background-color: #FFFFFF;
+                padding-top: 0.1rem;
+            }
+            .renae_right{
+                width: 15%;
+                font-size: 0.1rem;
+                text-align: center;
+                span{
+                    color: #fffeff;
+                }
+            }
+        }
+    }
+}
+#vip{
+    width: 100%;
+    height: 1.58rem;
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    right: 0;
+    .vip_main{
+        width: 90%;
+        height: 1.58rem;
+        margin: auto;
+        border-bottom: 0.01rem solid lightgray;
+        .vip_top{
+            width: 100%;
+            p{
+                line-height: 0.6rem;
+                font-weight: 600;
+                font-size: 0.18rem;
+            }
+        }
+        table{
+            width: 100%;
+            height: 0.7rem;
+            tr{
+                width: 60%;
+                height: 0.7rem;
+                float: left;
+                td{
+                    width: 50%;
+                    height: 0.7rem;
+                    text-align: center;
+//                  border: 1px solid red;
+                    img{
+                        width: 60%;
+                        max-height: 0.7rem;
+                    }
+                }
+            }
+        }
+    }
+}
+#good{
+    width: 100%;
+    height: 1.5rem;
+//  border: 1px solid red;
+    position: absolute;
+    top: 3.6rem;
+    left: 0;
+    right: 0;
+    .good_top{
+        width: 90%;
+        margin: auto;
+        font-size: 0.18rem;
+        font-weight: 600;
+        line-height: 0.6rem;
+    }
+    .good_main{
+        width: 90%;
+        margin: auto;
+        table{
+            width: 100%;
+            tr{
+                width: 100%;
+                td{
+                    width: 40%;
+                    float: left;
+                    img{
+                        width: 100%;
+                        max-height: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}

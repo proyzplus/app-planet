@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  width: 100%;
+  height: 0.4rem;
+  position: fixed;
+  background-color: #FFFFFF;
+  line-height: 0.4rem;
+  text-align: center;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  right: 0; }
+  header #head {
+    width: 90%;
+    height: 0.4rem;
+    margin: auto; }
+    header #head ul {
+      width: 100%;
+      height: 0.4rem;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+      margin: 0; }
+      header #head ul li {
+        width: 50%;
+        height: 0.4rem; }
+      header #head ul span {
+        font-size: 0.18rem;
+        font-weight: 600; }
+      header #head ul .head_lef {
+        float: left; }
+        header #head ul .head_lef img {
+          float: left;
+          padding-top: 0.1rem; }
+      header #head ul .head_rig {
+        float: right; }
+        header #head ul .head_rig img {
+          float: right;
+          padding-top: 0.1rem; }
+      header #head ul img {
+        width: 20%;
+        max-height: 0.4rem; }
+
+nav {
+  width: 100%;
+  position: absolute;
+  top: 0.4rem;
+  left: 0;
+  right: 0; }
+  nav .banner {
+    width: 100%; }
+    nav .banner img {
+      width: 100%; }
+  nav .what {
+    width: 100%;
+    height: 0.5rem; }
+    nav .what .what_main {
+      width: 90%;
+      height: 0.34rem;
+      margin: auto;
+      text-align: center;
+      line-height: 0.34rem;
+      background-color: #eeeeee;
+      border-radius: 0.06rem; }
+  nav .messager {
+    width: 90%; }
+    nav .messager img {
+      width: 100%; }
+
+/*# sourceMappingURL=topicmain.css.map */

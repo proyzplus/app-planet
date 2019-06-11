@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+header {
+  width: 100%;
+  height: 0.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background-color: #FFFFFF;
+  border-bottom: 0.01rem solid lightgray; }
+  header #head {
+    width: 90%;
+    height: 0.4rem;
+    margin: auto;
+    line-height: 0.5rem; }
+    header #head ul {
+      width: 100%;
+      height: 0.4rem;
+      display: flex;
+      justify-content: space-around;
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+      header #head ul .head_lio {
+        width: 10%;
+        height: 0.4rem;
+        text-align: center; }
+        header #head ul .head_lio img {
+          width: 60%; }
+      header #head ul .head_lit {
+        width: 70%;
+        height: 0.4rem;
+        margin: auto;
+        text-align: center; }
+        header #head ul .head_lit input {
+          width: 100%;
+          height: 0.36rem;
+          background-color: #f4f4f4;
+          border-radius: 0.1rem;
+          border: 0;
+          outline: none; }
+
+nav {
+  width: 100%;
+  position: absolute;
+  top: 0.5rem;
+  left: 0;
+  right: 0; }
+  nav #main {
+    width: 100%;
+    height: 100%; }
+    nav #main #main_left {
+      width: 23%;
+      float: left;
+      position: fixed;
+      top: 0.5rem;
+      left: 0;
+      bottom: 0; }
+      nav #main #main_left ul {
+        width: 100%;
+        padding: 0;
+        margin: 0; }
+        nav #main #main_left ul li {
+          width: 100%;
+          height: 0.5rem;
+          line-height: 0.5rem;
+          text-align: center; }
+    nav #main #main_right {
+      width: 75%;
+      height: 100%;
+      float: right; }
+      nav #main #main_right .first {
+        width: 90%;
+        margin: auto; }
+        nav #main #main_right .first .first_topword {
+          width: 100%;
+          line-height: 0.5rem; }
+        nav #main #main_right .first .first_mainimg {
+          width: 100%; }
+          nav #main #main_right .first .first_mainimg img {
+            width: 100%; }
+        nav #main #main_right .first .first_mainshop {
+          width: 100%; }
+          nav #main #main_right .first .first_mainshop table {
+            width: 100%; }
+            nav #main #main_right .first .first_mainshop table tr {
+              width: 100%; }
+              nav #main #main_right .first .first_mainshop table tr td {
+                width: 32%;
+                padding-top: 0.2rem;
+                text-align: center; }
+                nav #main #main_right .first .first_mainshop table tr td img {
+                  width: 50%; }
+                nav #main #main_right .first .first_mainshop table tr td p {
+                  color: #b3b3b3;
+                  font-size: 0.14rem;
+                  line-height: 0.4rem; }
+
+.spical {
+  font-size: 0.17rem;
+  font-weight: 600; }
+  .spical span {
+    color: #f1637b; }
+
+/*# sourceMappingURL=search.css.map */

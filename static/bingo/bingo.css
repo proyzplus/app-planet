@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #FFFFFF;
+  border-bottom: 0.01rem solid #f5f5f5; }
+  header #head {
+    width: 95%;
+    margin: auto;
+    line-height: 0.5rem;
+    font-size: 0.18rem;
+    font-weight: 600; }
+    header #head ul {
+      display: flex;
+      justify-content: space-between;
+      list-style: none; }
+      header #head ul li {
+        width: 50%; }
+        header #head ul li .top_search {
+          width: 34%;
+          height: 0.28rem;
+          border-radius: 0.2rem;
+          background-color: #f8f8f8;
+          float: right;
+          font-size: 0.1rem;
+          line-height: 0.26rem;
+          font-weight: 100;
+          text-align: center;
+          background-image: url(../../src/assets/img/www.png);
+          background-position: right;
+          background-repeat: no-repeat; }
+
+#bigbox {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0.5rem; }
+  #bigbox .banner {
+    width: 85%;
+    margin: auto; }
+    #bigbox .banner ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-between; }
+      #bigbox .banner ul li {
+        width: 44%;
+        padding: 0.2rem 0 0.3rem 0; }
+        #bigbox .banner ul li img {
+          width: 100%; }
+  #bigbox .everyday {
+    width: 85%;
+    margin: auto; }
+    #bigbox .everyday .everyday_topword {
+      font-size: 0.18rem;
+      font-weight: 500;
+      line-height: 0.4rem; }
+  #bigbox .everyday_shopping {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; }
+    #bigbox .everyday_shopping .shop_left {
+      width: 47%; }
+      #bigbox .everyday_shopping .shop_left p {
+        line-height: 0.36rem;
+        font-size: 0.1rem; }
+      #bigbox .everyday_shopping .shop_left .shop_price {
+        width: 100%; }
+        #bigbox .everyday_shopping .shop_left .shop_price ul {
+          display: flex;
+          justify-content: space-between;
+          list-style: none; }
+          #bigbox .everyday_shopping .shop_left .shop_price ul .sprice_bot {
+            width: 100%;
+            line-height: 0.22rem;
+            color: white;
+            background-color: #fc596c;
+            border-radius: 0.2rem;
+            font-size: 0.1rem; }
+    #bigbox .everyday_shopping .shop_right {
+      width: 47%; }
+      #bigbox .everyday_shopping .shop_right .shop_price {
+        width: 100%; }
+        #bigbox .everyday_shopping .shop_right .shop_price ul {
+          display: flex;
+          justify-content: space-between;
+          list-style: none; }
+          #bigbox .everyday_shopping .shop_right .shop_price ul .sprice_bot {
+            width: 100%;
+            line-height: 0.22rem;
+            color: white;
+            background-color: #fc596c;
+            border-radius: 0.2rem;
+            font-size: 0.1rem; }
+    #bigbox .everyday_shopping img {
+      width: 100%; }
+    #bigbox .everyday_shopping p {
+      line-height: 0.36rem;
+      font-size: 0.1rem; }
+  #bigbox .goodshop {
+    width: 100%;
+    margin: auto; }
+    #bigbox .goodshop .goodshop_topword {
+      line-height: 0.3rem;
+      padding-top: 0.3rem;
+      font-size: 0.16rem;
+      font-weight: 400;
+      padding-bottom: 0.1rem; }
+    #bigbox .goodshop .goodshop_shopp {
+      width: 100%;
+      margin-top: 0.2rem; }
+      #bigbox .goodshop .goodshop_shopp ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%; }
+        #bigbox .goodshop .goodshop_shopp ul .li_fir {
+          width: 40%; }
+          #bigbox .goodshop .goodshop_shopp ul .li_fir .shop_img {
+            width: 100%; }
+            #bigbox .goodshop .goodshop_shopp ul .li_fir .shop_img img {
+              width: 100%; }
+        #bigbox .goodshop .goodshop_shopp ul .li_sec {
+          width: 55%;
+          height: 1rem; }
+          #bigbox .goodshop .goodshop_shopp ul .li_sec .shop_wordprice {
+            width: 100%;
+            height: 1rem; }
+            #bigbox .goodshop .goodshop_shopp ul .li_sec .shop_wordprice .wprice_top {
+              width: 100%;
+              font-size: 0.14rem;
+              font-weight: 400;
+              height: 0.5rem;
+              position: relative;
+              top: 0;
+              left: 0; }
+            #bigbox .goodshop .goodshop_shopp ul .li_sec .shop_wordprice .shop_wrbto {
+              line-height: 0.4rem;
+              position: relative;
+              bottom: 0;
+              left: 0; }
+              #bigbox .goodshop .goodshop_shopp ul .li_sec .shop_wordprice .shop_wrbto .wr_fir {
+                color: #e44b59;
+                font-size: 0.14rem;
+                font-weight: 400; }
+              #bigbox .goodshop .goodshop_shopp ul .li_sec .shop_wordprice .shop_wrbto .wr_sec {
+                color: #6a6a6a;
+                font-size: 0.12rem; }
+    #bigbox .goodshop .banner_shop {
+      width: 100%;
+      margin: auto;
+      padding-top: 0.1rem; }
+      #bigbox .goodshop .banner_shop img {
+        width: 100%; }
+      #bigbox .goodshop .banner_shop p {
+        padding: 0.2rem 0 0.2rem 0;
+        font-weight: 400; }
+      #bigbox .goodshop .banner_shop ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        margin: 0;
+        padding: 0; }
+        #bigbox .goodshop .banner_shop ul .wr_fir {
+          color: #e44b59;
+          font-size: 0.14rem;
+          font-weight: 400; }
+        #bigbox .goodshop .banner_shop ul .wr_sec {
+          color: #6a6a6a;
+          font-size: 0.12rem; }
+
+/*# sourceMappingURL=bingo.css.map */

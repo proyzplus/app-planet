@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+header {
+  background-color: #cbdaf9; }
+  header span {
+    color: #FFFFFF; }
+
+nav {
+  width: 100%;
+  height: 1.6rem;
+  background-color: #cbdaf9; }
+  nav #banner {
+    width: 90%;
+    margin: auto; }
+    nav #banner .top_mine {
+      width: 100%;
+      height: 0.7rem; }
+      nav #banner .top_mine ul {
+        width: 100%;
+        height: 0.7rem;
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0; }
+        nav #banner .top_mine ul .minetop_head {
+          width: 70%;
+          height: 0.7rem; }
+          nav #banner .top_mine ul .minetop_head .minetop_left {
+            width: 100%;
+            height: 0.7rem; }
+            nav #banner .top_mine ul .minetop_head .minetop_left ul {
+              width: 100%; }
+              nav #banner .top_mine ul .minetop_head .minetop_left ul .left_mine {
+                width: 20%;
+                max-height: 0.7rem; }
+                nav #banner .top_mine ul .minetop_head .minetop_left ul .left_mine img {
+                  width: 100%;
+                  max-height: 0.7rem; }
+              nav #banner .top_mine ul .minetop_head .minetop_left ul .right_mine {
+                width: 70%;
+                max-height: 0.7rem; }
+                nav #banner .top_mine ul .minetop_head .minetop_left ul .right_mine .mine_pone {
+                  font-size: 0.16rem;
+                  color: #fffeff;
+                  font-weight: 600;
+                  overflow: hidden;
+                  white-space: nowrap;
+                  text-overflow: ellipsis; }
+                nav #banner .top_mine ul .minetop_head .minetop_left ul .right_mine .mine_pthree {
+                  font-size: 0.12rem;
+                  color: #FFFFFF;
+                  line-height: 0.26rem;
+                  overflow: hidden;
+                  white-space: nowrap;
+                  text-overflow: ellipsis; }
+        nav #banner .top_mine ul .minetop_headd {
+          width: 20%;
+          height: 0.7rem; }
+          nav #banner .top_mine ul .minetop_headd .minetop_right {
+            width: 100%;
+            height: 0.7rem;
+            line-height: 0.45rem; }
+            nav #banner .top_mine ul .minetop_headd .minetop_right p {
+              color: #FFFFFF; }
+    nav #banner .renae {
+      width: 100%;
+      height: 0.1rem;
+      margin: auto;
+      display: flex;
+      justify-content: space-between; }
+      nav #banner .renae .renae_left {
+        width: 85%;
+        height: 0.08rem;
+        border-radius: 0.2rem;
+        background-color: #FFFFFF;
+        padding-top: 0.1rem; }
+      nav #banner .renae .renae_right {
+        width: 15%;
+        font-size: 0.1rem;
+        text-align: center; }
+        nav #banner .renae .renae_right span {
+          color: #fffeff; }
+
+#vip {
+  width: 100%;
+  height: 1.58rem;
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  right: 0; }
+  #vip .vip_main {
+    width: 90%;
+    height: 1.58rem;
+    margin: auto;
+    border-bottom: 0.01rem solid lightgray; }
+    #vip .vip_main .vip_top {
+      width: 100%; }
+      #vip .vip_main .vip_top p {
+        line-height: 0.6rem;
+        font-weight: 600;
+        font-size: 0.18rem; }
+    #vip .vip_main table {
+      width: 100%;
+      height: 0.7rem; }
+      #vip .vip_main table tr {
+        width: 60%;
+        height: 0.7rem;
+        float: left; }
+        #vip .vip_main table tr td {
+          width: 50%;
+          height: 0.7rem;
+          text-align: center; }
+          #vip .vip_main table tr td img {
+            width: 60%;
+            max-height: 0.7rem; }
+
+#good {
+  width: 100%;
+  height: 1.5rem;
+  position: absolute;
+  top: 3.6rem;
+  left: 0;
+  right: 0; }
+  #good .good_top {
+    width: 90%;
+    margin: auto;
+    font-size: 0.18rem;
+    font-weight: 600;
+    line-height: 0.6rem; }
+  #good .good_main {
+    width: 90%;
+    margin: auto; }
+    #good .good_main table {
+      width: 100%; }
+      #good .good_main table tr {
+        width: 100%; }
+        #good .good_main table tr td {
+          width: 40%;
+          float: left; }
+          #good .good_main table tr td img {
+            width: 100%;
+            max-height: 1rem; }
+
+/*# sourceMappingURL=member.css.map */

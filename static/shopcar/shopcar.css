@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%; }
+  header .header {
+    width: 90%;
+    margin: auto; }
+    header .header ul {
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      line-height: 0.6rem; }
+      header .header ul .shopcar {
+        font-size: 0.18rem;
+        font-weight: 600; }
+      header .header ul .bj {
+        font-size: 0.14rem; }
+
+#mainshop {
+  width: 100%;
+  position: absolute;
+  top: 0.6rem;
+  left: 0;
+  right: 0; }
+  #mainshop .shoptop {
+    width: 100%;
+    border-bottom: 0.01rem solid lightgray; }
+    #mainshop .shoptop .mainshop_top {
+      width: 90%;
+      margin: auto;
+      line-height: 0.4rem; }
+      #mainshop .shoptop .mainshop_top ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+        list-style: none; }
+        #mainshop .shoptop .mainshop_top ul li {
+          width: 33%;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          text-align: center; }
+          #mainshop .shoptop .mainshop_top ul li img {
+            width: 16%; }
+  #mainshop .banner_shopcar {
+    width: 100%;
+    margin: auto; }
+    #mainshop .banner_shopcar .banners {
+      width: 40%;
+      margin: auto; }
+      #mainshop .banner_shopcar .banners img {
+        width: 100%; }
+  #mainshop .youlike {
+    width: 90%;
+    margin: auto; }
+    #mainshop .youlike .youlike_top {
+      width: 100%;
+      line-height: 0.6rem; }
+      #mainshop .youlike .youlike_top p {
+        font-size: 0.18rem;
+        font-weight: 600; }
+    #mainshop .youlike .youlike_shop {
+      width: 100%;
+      margin: auto; }
+      #mainshop .youlike .youlike_shop ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        margin: 0;
+        padding: 0; }
+        #mainshop .youlike .youlike_shop ul li {
+          width: 48%; }
+          #mainshop .youlike .youlike_shop ul li .like_shop {
+            width: 100%; }
+            #mainshop .youlike .youlike_shop ul li .like_shop .like_img {
+              width: 100%; }
+              #mainshop .youlike .youlike_shop ul li .like_shop .like_img img {
+                width: 100%; }
+            #mainshop .youlike .youlike_shop ul li .like_shop .like_word {
+              width: 100%;
+              padding-top: 0.12rem;
+              padding-bottom: 0.12rem; }
+              #mainshop .youlike .youlike_shop ul li .like_shop .like_word p {
+                font-size: 0.1rem; }
+            #mainshop .youlike .youlike_shop ul li .like_shop .like_price {
+              width: 100%; }
+              #mainshop .youlike .youlike_shop ul li .like_shop .like_price p {
+                font-size: 0.14rem;
+                color: #fe4f6c; }
+
+/*# sourceMappingURL=shopcar.css.map */

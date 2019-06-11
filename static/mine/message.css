@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  box-shadow: 0px 15px 10px -15px #ccc; }
+
+nav {
+  width: 100%;
+  position: absolute;
+  top: 0.5rem;
+  left: 0;
+  right: 0; }
+  nav #message_main {
+    width: 90%;
+    margin: auto; }
+    nav #message_main ul {
+      width: 100%;
+      height: 0.5rem;
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+      margin: 0;
+      list-style: none; }
+      nav #message_main ul li {
+        width: 30%;
+        height: 0.5rem; }
+        nav #message_main ul li .message_total {
+          width: 100%;
+          height: 0.5rem; }
+          nav #message_main ul li .message_total ul {
+            width: 100%;
+            height: 0.5rem;
+            display: flex;
+            justify-content: space-between;
+            padding: 0;
+            margin: 0;
+            list-style: none; }
+            nav #message_main ul li .message_total ul li {
+              width: 100%;
+              height: 0.5rem;
+              line-height: 0.5rem; }
+              nav #message_main ul li .message_total ul li img {
+                width: 40%;
+                max-height: 0.5rem; }
+            nav #message_main ul li .message_total ul span {
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap; }
+        nav #message_main ul li .totla_rig {
+          width: 100%;
+          max-height: 0.5rem;
+          float: right; }
+          nav #message_main ul li .totla_rig img {
+            width: 24%;
+            float: right;
+            height: 60%;
+            padding-top: 0.1rem; }
+
+/*# sourceMappingURL=message.css.map */

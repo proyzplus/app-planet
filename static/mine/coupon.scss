@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    z-index: 99;
+    background-color: #FFFFFF;
+}
+nav{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0.4rem;
+    left: 0;
+    right: 0;
+    background-color: #F8F8F8;
+    #conpon_man{
+        width: 90%;
+        height: 1.2rem;
+        margin: auto;
+        padding-top: 0.1rem;
+        ul{
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            li{
+                width: 45%;
+                img{
+                    width: 100%;
+                    max-height: 1.2rem;
+                }
+            }
+        }
+    }
+    #coupon_ap{
+        width: 90%;
+        margin: auto;
+        height: 1.2rem;
+        img{
+            width: 100%;
+            max-height: 1.2rem;
+        }
+    }
+}

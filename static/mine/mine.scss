@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 1.4rem;
+    background-color: #fe8ca3;
+    .headrt{
+        width: 90%;
+        height: 0.7rem;
+        margin: auto;
+//      border: 1px solid black;
+        .top_mine{
+            width: 100%;
+            height: 0.7rem;
+            ul{
+                width: 100%;
+                height: 0.7rem;
+                display: flex;
+                list-style: none;
+                justify-content: space-between;
+                padding: 0;
+                margin: 0;
+                .minetop_head{
+                    width: 70%;
+                    height: 0.7rem;
+//                  border: 1px solid paleturquoise;
+                    .minetop_left{
+                        width: 100%;
+                        height: 0.7rem;
+                        ul{
+                            width: 100%;
+                            .left_mine{
+                                width: 20%;
+                                max-height: 0.7rem;
+                                img{
+                                    width: 100%;
+                                    height: 70%;
+                                }
+                            }
+                            .right_mine{
+                                width: 70%;
+                                max-height: 0.7rem;
+                                .mine_pone{
+                                    font-size: 0.16rem;
+                                    color: #fffeff;
+                                    font-weight: 600;
+                                    overflow:hidden;
+                                    white-space:nowrap;
+                                    text-overflow:ellipsis;
+                                }
+                                .mine_ptwo{
+                                    width: 0.5rem;
+                                    height: 0.15rem;
+                                    border-radius: 0.03rem;
+                                    color: #fffeff;
+                                    font-size: 0.12rem;
+                                    line-height: 0.24rem;
+                                    background-color: #feccd5;
+                                    overflow:hidden;
+                                    white-space:nowrap;
+                                    text-overflow:ellipsis;
+                                }
+                                .mine_pthree{
+                                    font-size: 0.12rem;
+                                    color: #feccd5;
+                                    overflow:hidden;
+                                    white-space:nowrap;
+                                    text-overflow:ellipsis;
+                                }
+                            }
+                        }
+                    }
+                }
+                .minetop_headd{
+                    width: 20%;
+                    height: 0.7rem;
+//                  border: 1px solid palevioletred;
+                    .minetop_right{
+                        width: 100%;
+                        height: 0.7rem;
+                        img{
+                            width: 50%;
+                            float: right;
+                            max-height: 0.7rem;
+                        }
+                    }
+                }
+            }
+        }
+        .renae{
+            width: 100%;
+            height: 0.1rem;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+//          border: 1px solid red;
+            .renae_left{
+                width: 85%;
+                height: 0.1rem;
+                border-radius: 0.2rem;
+                background-color: #fec9d3;
+                padding-top: 0.1rem;
+            }
+            .renae_right{
+                width: 15%;
+                font-size: 0.1rem;
+                text-align: center;
+                span{
+                    color: #fffeff;
+                }
+            }
+        }
+    }
+}
+nav{
+    width: 100%;
+    .mainbanner{
+        width: 100%;
+        height: 0.55rem;
+        background-color: #fff9f9;
+        .mine_icon{
+            width: 90%;
+            height: 0.8rem;
+            margin: auto;
+            background-color: #FFFFFF;
+            border-radius: 0.1rem;
+            position: relative;
+            top: -0.3rem;
+            ul{
+                display: flex;
+                justify-content: space-around;
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                width: 100%;
+                height: 0.8rem;
+                text-align: center;
+                li{
+                    width: 25%;
+                    height: 0.5rem;
+                    img{
+                        width: 36%;
+                        max-height: 0.5rem;
+                    }
+                    p{
+                        color: #b2b2b2;
+                        font-size: 0.1rem;
+                    }
+                }
+            }
+        }
+    }
+    .minelist{
+        width: 90%;
+        margin: auto;
+        ul {
+            list-style: none;
+            width: 100%;
+            li{
+                width: 100%;
+                height: 0.5rem;
+                .minelist_one{
+                    width: 100%;
+                    ul{
+                        display: flex;
+                        justify-content: space-between;
+                        list-style: none;
+                        padding: 0;
+                        margin: 0;
+                        line-height: 0.5rem;
+                        .mine_left{
+                            width: 35%;
+                            height: 0.5rem;
+//                          border: 1px solid red;
+                            .minelist_tao{
+                                width: 100%;
+                                height: 0.5rem;
+                                img{
+                                    width: 0.2rem;
+                                    height: 0.2rem;
+                                }
+                                span{
+                                    font-size: 0.1rem;
+                                    width: 60%;
+                                    overflow:hidden;
+                                    white-space:nowrap;
+                                    text-overflow:ellipsis;
+                                }
+                            }
+                        }
+                        .mine_right{
+                            width: 40%;
+                            height: 0.5rem;
+//                          border: 1px solid red;
+                            .minelist_taso{
+                                width: 100%;
+                                height: 0.5rem;
+                                p{
+                                    font-size: 0.1rem;
+                                    overflow:hidden;
+                                    white-space:nowrap;
+                                    text-overflow:ellipsis;
+                                }
+                                img{
+                                    width: 0.2rem;
+                                    height: 0.2rem;
+                                    float: right;
+//                                  border: 1px solid red;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+
+
+
+
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0.5rem;
+    z-index: 99;
+    background-color: #FFFFFF;
+}
+
+footer .foot {
+    width: 100%;
+    height: 0.5rem;
+    padding-top: 0.05rem;
+    background-color: #FFFFFF;
+}
+
+footer .foot ul {
+    width: 100%;
+    display: flex;
+    height: 0.5rem;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+    font-size: 0.01rem;
+}
+
+footer .foot ul li {
+    width: 50%;
+    height: 0.5rem;
+    margin: auto;
+    text-align: center;
+    font-size: 0.1rem;
+}
+
+footer img {
+    width: 0.26rem;
+}
+
+footer .foot ul li a {
+    color: #000000;
+    text-decoration: none;
+}

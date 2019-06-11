@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    .header{
+        width: 90%;
+        margin: auto;
+//      border: 1px solid red;
+        ul{
+            display: flex;
+            justify-content: space-between;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            line-height: 0.6rem;
+            .shopcar{
+                font-size: 0.18rem;
+                font-weight: 600;
+            }
+            .bj{
+                font-size: 0.14rem;
+            }
+        }
+    }
+}
+#mainshop{
+    width: 100%;
+    position: absolute;
+    top: 0.6rem;
+    left: 0;
+    right: 0;
+    .shoptop{
+        width: 100%;
+        border-bottom: 0.01rem solid lightgray;
+        .mainshop_top{
+            width: 90%;
+            margin: auto;
+            line-height: 0.4rem;
+            ul{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                padding: 0;
+                margin: 0;
+                list-style: none;
+                li{
+                    width: 33%;
+    //              border: 0.01rem solid red;
+                    overflow:hidden;
+                    white-space:nowrap;
+                    text-overflow:ellipsis;
+                    text-align: center;
+                    img{
+                        width: 16%;
+                    }
+                }
+            }
+        }
+    }
+    .banner_shopcar{
+        width: 100%;
+        margin: auto;
+        .banners{
+            width: 40%;
+            margin: auto;
+            img{
+                width: 100%;
+            }
+        }
+        
+    }
+    .youlike{
+        width: 90%;
+        margin: auto;
+//      border: 1px solid red;
+        .youlike_top{
+            width: 100%;
+            line-height: 0.6rem;
+            p{
+                font-size: 0.18rem;
+                font-weight: 600;
+            }
+        }
+        .youlike_shop{
+            width: 100%;
+            margin: auto;
+//          border: 1px solid blue;
+            ul{
+                display: flex;
+                justify-content: space-between;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                li{
+                    width: 48%;
+                    .like_shop{
+                        width: 100%;
+                        .like_img{
+                            width: 100%;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        .like_word{
+                            width: 100%;
+                            padding-top: 0.12rem;
+                            padding-bottom: 0.12rem;
+                            p{
+                                font-size: 0.1rem;
+                            }
+                        }
+                        .like_price{
+                            width: 100%;
+                            p{
+                                font-size: 0.14rem;
+                                color: #fe4f6c;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
